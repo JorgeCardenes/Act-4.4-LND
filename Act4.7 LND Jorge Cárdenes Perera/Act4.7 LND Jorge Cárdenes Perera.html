@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Movile</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .container-fluid {
+            padding: 3% 15%;
+        }
+        #title {
+            background-color: #ff4c68;
+            color: white;
+        }
+        .navbar-brand {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 2.5rem;
+        }
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 3.5rem;
+            line-height: 1.5;
+        }
+        .navbar {
+            padding-bottom: 4.5rem;
+        }
+        .nav-item {
+            padding: 0 18px;
+        }
+        .nav-link {
+            font-size: 1.2rem;
+        }
+        .btn-margin {
+            margin: 5% 3% 5% 0;
+        }
+        .rotate {
+            transform: rotate(25deg);
+        }
+        #features {
+            text-align: center;
+            padding: 7% 15%;
+            background-color: #fff;
+            position: relative;
+        }
+        .feature-box {
+            padding: 5%;
+        }
+        .feature-icon {
+            color: #ef8172;
+            margin-bottom: 1rem;
+        }
+        .feature-icon:hover {
+            color: #ff4c68;
+        }
+        .feature-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        .feature-text {
+            color: #8f8f8f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header id="title">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Minecraft movile</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://help.minecraft.net/hc/en-us/request/new?ticket_form_id=360001225811">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.minecraft.net/es-es">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.minecraft.net/es-es/download">Descarga</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>El límite es tu imaginación</h1>
+                    <button type="button" class="btn btn-dark btn-lg btn-margin">Descargar</button>
+                    <button type="button" class="btn btn-outline-light btn-lg btn-margin">Descargar</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="Minecraft.jpg" alt="Imagen de la aplicación" class="img-fluid rotate">
+                </div>
+            </div>
+        </header>
+
+        <section id="features">
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <i class="fas fa-laptop-code fa-4x feature-icon"></i>
+                    <h3 class="feature-title">Construcción sin límites</h3>
+                    <p class="feature-text">Crea estructuras increíbles con recursos ilimitados.</p>
+                </div>
+                <div class="feature-box col-lg-4">
+                    <i class="fas fa-bullseye fa-4x feature-icon"></i>
+                    <h3 class="feature-title">Modo supervivencia</h3>
+                    <p class="feature-text">Desafía tus habilidades en un mundo hostil.</p>
+                </div>
+                <div class="feature-box col-lg-4">
+                    <i class="fas fa-heart fa-4x feature-icon"></i>
+                    <h3 class="feature-title">Multijugador épico</h3>
+                    <p class="feature-text">Únete a tus amigos en aventuras emocionantes.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script>
+</body>
+</html>
